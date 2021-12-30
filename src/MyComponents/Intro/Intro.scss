@@ -1,0 +1,43 @@
+
+.intro{
+
+    background-image: url("../../../public/bubble.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+
+    .left{
+            padding:1px 30px; 
+    }
+
+    .right{
+
+        .btn{
+            border: 2px solid black;
+            color: whitesmoke;
+        
+            &:hover{
+                background-color: whitesmoke;
+                color: black;
+                border: 1px solid black;
+            }
+        }
+    }
+    
+    @media(max-width: 768px) {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+}
+
+
+

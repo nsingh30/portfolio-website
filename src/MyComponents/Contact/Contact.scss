@@ -1,0 +1,47 @@
+@import "../../global.scss";
+
+.contact{
+    background-image: url("../../../public/ombre.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+
+    .itemContainer{
+        height: 80vh;
+        width: 100vw;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+
+        h1{
+            font-size: 80px;
+            font-weight: 900;
+        }
+        .item{
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color:inherit;
+            padding: 10px;
+
+            .mail{
+                font-size: 80px;
+                margin: 10px;
+                color: olivedrab;
+                
+            }
+
+            .github{
+                font-size: 60px;
+                margin: 10px;
+                color: olivedrab;
+            }
+    
+        }
+    }
+
+    
+}
