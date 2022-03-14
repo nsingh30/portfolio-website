@@ -58,11 +58,18 @@
                 color: lightslategray;
             }
 
+            // .active {
+            //     color: violet;
+            // }
+
             a{
                 text-decoration: none;
-                color: inherit;
+                color: darkblue;
                 font-size: inherit;
                 font-weight: inherit;
+                .active {
+                    color: violet;
+                }
             }
             
         }
@@ -106,7 +113,7 @@
 
             a{
                 text-decoration: none;
-                color: inherit;
+                color: darkblue;
                 font-size: inherit;
                 font-weight: inherit;
             }

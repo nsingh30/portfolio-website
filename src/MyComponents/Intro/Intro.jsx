@@ -10,7 +10,7 @@ export default function Intro() {
             </div>
             <div class="right">
                 <h1>Hi, I'm Nikki Singh</h1>
-                <h5>An enthusiast looking for oppurtunities to grow.</h5>
+                <h5>A coding enthusiast looking for oppurtunities to grow.</h5>
                 <a href="#work" className="btn">My Work</a>
             </div>
 

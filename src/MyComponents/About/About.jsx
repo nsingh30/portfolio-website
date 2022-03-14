@@ -8,14 +8,14 @@ export default function About() {
         {
             id:"1",
             title:"About Me",
-            desc: "Exposure to web development in my degree course has fascinated me to learn and develop more skills in this industry. I like to work with HTML5, CSS3, JS, ReactJS. My graduation from Bachelor of Technology in Computer Sceince from India, has provided me basic programming skills and mindset to new technology.",
-            img: "../../design2.jpeg",
+            desc: "Exposure to web development courses on various platforms has fascinated me to learn and develop more skills in this industry. I like to work with Java, HTML5, CSS3, JS, ReactJS. Courses in programming and computer sceince in school has provided me with basic coding skills and mindset to new technology.",
+            // img: "../../design2.jpeg",
         },
         {
             id:"2",
             title:"Skills",
-            desc: "HTML5, CSS3, Sass, JavaScript, ReactJS, BootStrap, Wordpress, SQL",
-            img: "../../design.jpeg",
+            desc: "Java, HTML5, CSS3, Sass, JavaScript, ReactJS, BootStrap, Wordpress, SQL",
+            // img: "../../design.jpeg",
         },
     ];
 
@@ -39,9 +39,9 @@ export default function About() {
                         </div>
 
                     </div>
-                    <div className="right">
+                    {/* <div className="right">
                         <img src={d.img} alt=""/>
-                    </div>
+                    </div> */}
                 </div>
             </div>))}
             </div>  

@@ -5,7 +5,7 @@ export default function Topbar({open}) {
         <div open={open} className={open? "topbar" : "topbarclose"}>
             <ul className='ul'>
                 <li className='li'>
-                    <a href="#intro">HOME</a>
+                    <a href="#intro" className="active">HOME</a>
                 </li>
                 <li className='li'>
                     <a href="#work">PROJECTS</a>
